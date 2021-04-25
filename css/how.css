@@ -1,0 +1,227 @@
+/*how block------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.how {
+    min-height: 646px;
+    background-color: #f5fcfd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .how__container {
+    max-width: 1076px;
+    min-height: 389px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .how__create {
+    position: relative;
+  }
+  
+  .contain {
+    max-width: 731px;
+    min-height: 126px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  
+  .contain__title {
+    color: #333333;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  
+  .contain__text {
+    color: #929292;
+    font-size: 15.8px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  
+  .create {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: justify;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .create__item {
+    z-index: 2;
+  }
+  
+  .account {
+    width: 297px;
+    height: 216px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+    margin: 0 93px 0 0;
+  }
+  
+  .account:nth-child(3) {
+    margin: 0 0 0 0;
+  }
+  
+  .account__title {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  
+  .account__text {
+    color: #929292;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  
+  .how__line {
+    position: absolute;
+    right: 0;
+    left: 18%;
+    top: 25%;
+    width: 690px;
+    height: 1px;
+    border: 1px dotted #0f7bff;
+    z-index: 1;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .contain__title {
+      font-size: 30px;
+    }
+    .contain__text {
+      font-size: 14px;
+    }
+    .account {
+      margin: 0 70px 0 0;
+    }
+    .account:nth-child(3) {
+      margin: 0 0 0 0;
+    }
+    .account__title {
+      font-size: 16px;
+    }
+    .account__text {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .contain__title {
+      font-size: 28px;
+    }
+    .contain__text {
+      font-size: 14px;
+    }
+    .account {
+      margin: 0 25px 0 0;
+      width: 230px;
+      height: 180px;
+    }
+    .account:nth-child(3) {
+      margin: 0 0 0 0;
+    }
+    .account__title {
+      font-size: 14px;
+    }
+    .account__text {
+      font-size: 12px;
+    }
+    .account__img img {
+      width: 30%;
+    }
+    .how__line {
+      top: 20%;
+      width: 500px;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .how__container {
+      padding: 0 10px 15px 10px;
+    }
+    .create {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .create__item {
+      z-index: 2;
+    }
+    .contain {
+      margin: 10px 0 30px 0;
+    }
+    .contain__title {
+      font-size: 22px;
+    }
+    .contain__text {
+      font-size: 12px;
+    }
+    .account {
+      width: 250px;
+      height: 180px;
+      margin: 10px 0 30px 0;
+    }
+    .account__title {
+      font-size: 14px;
+    }
+    .account__text {
+      font-size: 12px;
+    }
+    .how__line {
+      display: none;
+    }
+  }
