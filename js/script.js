@@ -33,7 +33,6 @@ const footerUp = () => {
        topElem = header.getBoundingClientRect().top
 
 		if (topElem < -650) {
-            console.log(1)
 			footerUpBtn.style.display = 'flex'
 		} else {
             footerUpBtn.style.display = 'none'

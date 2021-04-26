@@ -9,3 +9,6 @@
 @import url('./prices.css');
 @import url('./testim.css');
 @import url('./trial.css');
+body{
+    overflow-y: scroll; overflow-x: hidden;
+}
